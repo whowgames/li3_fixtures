@@ -1,5 +1,5 @@
 {
-    "name": "unionofrad/li3_fixtures",
+    "name": "whowgames/li3_fixtures",
     "description": "The fixtures library for the li3 PHP framework",
     "keywords": ["lithium", "li3", "fixtures", "testing"],
     "homepage": "http://li3.me",
@@ -12,6 +12,6 @@
     "require": {
         "php": ">=5.5.14",
         "composer/installers": "1.*",
-        "unionofrad/lithium": "^1.1"
+        "unionofrad/lithium": "dev-whow-php7"
     }
 }
