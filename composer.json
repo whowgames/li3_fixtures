@@ -13,5 +13,6 @@
         "php": ">=5.5.14",
         "composer/installers": "1.*",
         "unionofrad/lithium": "dev-whow-php7"
-    }
+    },
+    "minimum-stability": "dev"
 }
