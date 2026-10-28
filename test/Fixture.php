@@ -126,7 +126,7 @@ class Fixture extends \lithium\data\Schema {
 	 * Initializes class configuration (`$_config`), and assigns object properties using the
 	 * `_init()` method, unless otherwise specified by configuration. See below for details.
 	 *
-	 * @see lithium\core\Object::__construct()
+	 * @see lithium\core\Li3Object::__construct()
 	 * @param array $config The configuration options
 	 */
 	public function __construct($config = []) {
@@ -136,7 +136,7 @@ class Fixture extends \lithium\data\Schema {
 	/**
 	 * Initializer function called by the constructor unless the constructor
 	 *
-	 * @see lithium\core\Object::_init()
+	 * @see lithium\core\Li3Object::_init()
 	 * @throws ConfigException
 	 */
 	protected function _init() {
