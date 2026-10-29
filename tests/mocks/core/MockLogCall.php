@@ -8,7 +8,7 @@
 
 namespace li3_fixtures\tests\mocks\core;
 
-class MockLogCall extends \lithium\core\Li3Object {
+class MockLogCall extends \lithium\core\DynamicObject {
 
 	public $construct = [];
 

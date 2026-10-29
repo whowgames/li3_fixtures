@@ -11,7 +11,7 @@ namespace li3_fixtures\extensions\adapter\test\fixtures;
 use lithium\core\ConfigException;
 use UnexpectedValueException;
 
-class Connection extends \lithium\core\Li3Object {
+class Connection extends \lithium\core\DynamicObject {
 
 	/**
 	 * Auto configuration properties.
@@ -45,7 +45,7 @@ class Connection extends \lithium\core\Li3Object {
 	 * Initializes class configuration (`$_config`), and assigns object properties using the
 	 * `_init()` method, unless otherwise specified by configuration. See below for details.
 	 *
-	 * @see lithium\core\Li3Object::__construct()
+	 * @see lithium\core\DynamicObject::__construct()
 	 * @param array $config The configuration options
 	 */
 	public function __construct(array $config = []) {
@@ -56,7 +56,7 @@ class Connection extends \lithium\core\Li3Object {
 	/**
 	 * Initializer function called by the constructor unless the constructor
 	 *
-	 * @see lithium\core\Li3Object::_init()
+	 * @see lithium\core\DynamicObject::_init()
 	 * @throws ConfigException
 	 */
 	protected function _init() {
